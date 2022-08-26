@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  plex:
+    build: .
+    working_dir: /code
+    network_mode: host
+    volumes:
+      - ${AWS}:/root/.aws:ro
+      - ./code:/code
+      - ./data:/data
+      - ./config:/config
+  

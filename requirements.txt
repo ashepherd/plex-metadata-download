@@ -1,0 +1,11 @@
+plexapi
+
+requests
+pyyaml
+simplejson
+
+rdflib
+SPARQLWrapper
+
+boto3
+minio
