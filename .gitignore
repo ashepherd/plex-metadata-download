@@ -1,3 +1,5 @@
 .env
-/data/**
-/config/*.yaml
+config/*.yaml
+.DS_Store
+web
+/web/**

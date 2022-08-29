@@ -7,6 +7,6 @@ services:
     volumes:
       - ${AWS}:/root/.aws:ro
       - ./code:/code
-      - ./data:/data
+      - ./Users/ashepherd/Projects/ashepherd.github.io/plex/data:/data
       - ./config:/config
   

@@ -1,0 +1,14 @@
+logging:
+  file: /data/media.log
+  level: 'INFO'
+plex_url: 'http://my-plex-server.example:32400'
+token: 'xxxxxxxxxx'
+save_directory: '/data'
+save_library_file: 'media.json'
+test: 'False'
+#test: 'True'
+download_thumbnails: 'True'
+sections:
+  - name: "Movies"
+  - name: "TV Shows"
+  
